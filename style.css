@@ -1,0 +1,167 @@
+.text,h2{
+    font-size: 2.25rem;
+    color:rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+.name{
+    color:rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+.main{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+span{
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+}
+.top-heading{
+    margin-top: 50px;
+}
+.resume-btn{
+    margin-top: 30px;
+}
+.resume-btn button a{
+   text-decoration: none;
+   font-family: "Roboto", sans-serif;
+   font-size: 15px;
+   padding: 3px 0 3px 0;
+   color:rgb(54, 54, 54);
+}
+
+button{
+    background-color: rgb(255, 255, 255);
+    border-color: aliceblue; 
+    border: 3px  solid rgb(230, 230, 230);
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(213, 216, 216);
+    border-color: rgb(255, 255, 255); 
+    border: 3px  solid rgb(230, 230, 230);
+    width: 100px;
+    height: 30px;
+    color: black;
+    font-weight: 600;
+}
+.head-about{
+    margin-top: 50px;
+    display: flex;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    text-align: start;
+    line-height: 30px;
+    font-weight: 400;
+    
+}
+.btn-skill{
+    width: 200px;
+    background-color: aquamarine;
+    border: 1px solid rgb(185, 185, 185);
+    background-color: white;
+    margin: 10px;
+    border-radius: 0;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+.works{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.work-em{
+    width: 50%;
+    margin-left: 10px;
+}
+.work-em button{
+    width: 100%;
+    border-radius: 0;
+    background-color: aliceblue;
+}
+.head-top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 10px 10px;
+    border-bottom: 1px solid black;
+    padding : 12px 0;
+}
+.dropdown-toggle::after {
+    display: none !important;
+}
+.icon{
+    background-color: white !important;
+}
+.btn{
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+}
+.fladf{
+    border-bottom: 1px solid black;
+}
+a:hover{
+    border-bottom: 1px solid rgb(208, 208, 208) !important;
+}
+.media{
+    display: flex;
+    justify-content: space-evenly;
+}
+.work-em a{
+    text-decoration: none;
+    color: rgb(59, 59, 59);
+}
+.work-em i:hover{
+    color: rgb(108, 69, 62);
+}
+.work-em{
+    margin-top: 15px;
+}
+.work-em button{
+    font-size: 80%;
+}
+.footer p{
+    text-align: center;
+    color:rgb(54, 54, 54);
+    font-family: "Roboto", sans-serif;
+    font-size: 10px;
+    line-height: 1;
+}
+.footer{
+    margin-top: 50px;
+}
+@media only screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 0 5% 0 5%;
+    }
+    .btn-skill{
+        width: 70px;
+        background-color: aquamarine;
+        border: 1px solid rgb(185, 185, 185);
+        background-color: white;
+        margin: 10px;
+        border-radius: 0;
+        font-size: 70%;
+    }
+    .btns{
+       margin: 10px;
+    }
+    .skilldiv{
+        margin: auto;
+    }
+}
