@@ -142,6 +142,53 @@ a:hover{
 .footer{
     margin-top: 50px;
 }
+.projects{
+    background-color: aliceblue;
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(160, 199, 230);
+}
+.links-1{
+    margin-right: 10px;
+    font-size: 50%;
+    margin-left: 10px;
+    align-items: center;
+}
+.links-1 i{
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+}
+.images img{
+    height: 150px;
+    width: 95%;
+}
+.images-1{
+    width: 100%;
+}
+.para p{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    line-height: 1;
+    margin: 0;
+}
+.para{
+    padding: 10px;
+}
+.para-p{
+    padding-bottom: 8px;
+}
+.heading-pro{
+    font-size: 70%;
+    font-weight: 700;
+}
 @media only screen and (max-width: 600px){
     .main{
         width: 100%;
@@ -163,5 +210,9 @@ a:hover{
     }
     .skilldiv{
         margin: auto;
+    }
+    .links-1{
+        margin: auto;
+        font-size: 50%;
     }
 }

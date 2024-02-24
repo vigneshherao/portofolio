@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Head from "./Head";
 import Skills from "./Skills";
 import Works from "./Works";
+import Projects from "./projects";
 
 
 
@@ -16,7 +17,6 @@ const Body = () =>{
             <Skills/>
             <Works/>
             <Connect/>
-            <Footer/>
         </div>
     )
 }

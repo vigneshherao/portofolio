@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Header = () => {
   return (
     <div className="head-top">
@@ -17,15 +19,9 @@ const Header = () => {
         <i className="fa-solid fa-bars fa-lg"></i>
         </a>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-          <a class="dropdown-item" href="#">
-            Home
-          </a>
-          <a class="dropdown-item" href="#">
-            Projects
-          </a>
-          <a class="dropdown-item" href="#">
-            Certificate
-          </a>
+        <Link className="dropdown-item" to={"/"}>  Home</Link>
+          <Link className="dropdown-item" to={"/project"}>  Projects</Link>
+          <Link className="dropdown-item" to={"/project"}>  Certificates</Link>
         </div>
       </div>
     </div>
