@@ -6,6 +6,8 @@ import { createBrowserRouter,Outlet,RouterProvider } from "react-router-dom";
 import path from "path";
 import Projects from "./components/projects";
 import Footer from "./components/Footer";
+import { Certificate } from "crypto";
+import Certificates from "./components/Cartificates";
 
 const AppLayout = () =>{
     return (
@@ -34,6 +36,10 @@ const appRouter = createBrowserRouter([
         {
             path:"/",
             element:<Body/>
+        },
+        {
+            path:"certificates",
+            element:<Certificates/>
         }
     ]
     }

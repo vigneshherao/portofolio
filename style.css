@@ -81,15 +81,18 @@ p{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+
 }
 .work-em{
     width: 50%;
     margin-left: 10px;
+
 }
 .work-em button{
     width: 100%;
     border-radius: 0;
     background-color: aliceblue;
+
 }
 .head-top{
     display: flex;
@@ -128,10 +131,12 @@ a:hover{
 }
 .work-em{
     margin-top: 15px;
+    font-size: 80%;
 }
 .work-em button{
     font-size: 80%;
 }
+
 .footer p{
     text-align: center;
     color:rgb(54, 54, 54);
@@ -144,6 +149,8 @@ a:hover{
 }
 .projects{
     background-color: aliceblue;
+    margin-top: 20px;
+    border: 1px solid rgb(228, 228, 228);
 }
 .links{
     display: flex;
@@ -173,6 +180,10 @@ a:hover{
 .images-1{
     width: 100%;
 }
+.images-2{
+    
+    width: 100%;
+}
 .para p{
     font-family: "Roboto", sans-serif;
     font-size: 13px;
@@ -188,6 +199,13 @@ a:hover{
 .heading-pro{
     font-size: 70%;
     font-weight: 700;
+}
+.other{
+    display: flex;
+}
+.other-img img{
+    width: 90%;
+    height: 120%;
 }
 @media only screen and (max-width: 600px){
     .main{
@@ -214,5 +232,28 @@ a:hover{
     .links-1{
         margin: auto;
         font-size: 50%;
+    }
+    .images-2{
+        display: none;
+    }
+    .other-img img{
+        width: 100%;
+        height: 120%;
+    }
+    .other-img{
+        margin-bottom: 80px;
+    }
+    .images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .images-1{
+        margin-bottom: 40px;
+        width: 80%;
+
+    }
+    .work-em {
+        font-size: 60%;
     }
 }
