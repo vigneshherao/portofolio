@@ -10,9 +10,106 @@ import cos from "./Assets/cos.png";
 import blog from "./Assets/blog.png";
 import sim from "./Assets/simon.png";
 import { Link } from "react-router-dom";
+import b1 from "./Assets/b1.png";
+import b2 from "./Assets/b2.png";
+import b3 from "./Assets/b3.png";
+import n1 from "./Assets/n1.png";
+import n2 from "./Assets/n2.png";
+import n3 from "./Assets/n3.png";
 const Projects = () => {
   return (
     <div>
+      <div className="projects">
+        <div className="links">
+          <span className="links-1">
+            <Link to={"https://github.com/vigneshherao/NetFlix_Gpt"}>
+              <i class="fa-brands fa-github fa-xl"></i>
+            </Link>
+          </span>
+          <span className="heading-pro">
+            NetFlixGpt - AI Powered Movie Suggestion Streaming Platform
+          </span>
+          <span className="links-1">
+            <Link to={"https://netflix-gpt-9by7.onrender.com"}>
+              <i class="fa-solid fa-link fa-xl "></i>
+            </Link>
+          </span>
+        </div>
+        <div>
+          <div className="para">
+            <p className="para-p">
+              • Implemented Firebase authentication for seamless Login/Sign Up
+              functionality, ensuring secure access and user authentication.
+            </p>
+            <p className="para-p">
+              • Leveraged Redux for state management, enhancing the applications
+              scalability and maintainability authentication.
+            </p>
+            <p className="para-p">
+              • Implemented custom hooks and memoization techniques to optimize
+              performance and speed up processes. .
+            </p>
+          </div>
+          <div className="images">
+            <div className="images-1">
+              {" "}
+              <img src={n2}></img>
+            </div>
+            <div className="images-1">
+              {" "}
+              <img src={n1}></img>
+            </div>
+            <div className="images-2">
+              {" "}
+              <img src={n3}></img>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="projects">
+        <div className="links">
+          <span className="links-1">
+            <Link to={"https://github.com/vigneshherao/Brotube_YoutubeClone"}>
+              <i class="fa-brands fa-github fa-xl"></i>
+            </Link>
+          </span>
+          <span className="heading-pro">BroTube - Youtube Clone</span>
+          <span className="links-1">
+            <Link to={"https://brotube.netlify.app/"}>
+              <i class="fa-solid fa-link fa-xl "></i>
+            </Link>
+          </span>
+        </div>
+        <div>
+          <div className="para">
+            <p className="para-p">
+              • Developed BroTube using ReactJS, Redux, Tailwind CSS, React
+              Router DOM, and YouTube API.
+            </p>
+            <p className="para-p">
+              • Implemented an advanced search feature with autocomplete,
+              debouncing, memoization, and caching for a swift and efficient
+              search experience.<br></br> • Efficient state management using
+              Redux for seamless data flow, centralized control, and optimal
+              performance in the BroTube project.
+            </p>
+          </div>
+          <div className="images">
+            <div className="images-1">
+              {" "}
+              <img src={b2}></img>
+            </div>
+            <div className="images-1">
+              {" "}
+              <img src={b1}></img>
+            </div>
+            <div className="images-2">
+              {" "}
+              <img src={b3}></img>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="projects">
         <div className="links">
           <span className="links-1">
@@ -102,7 +199,6 @@ const Projects = () => {
           <span className="heading-pro">FrontEnd - Spotify Clone</span>
         </div>
         <div>
-
           <div className="images">
             <div className="images-1">
               {" "}
@@ -120,24 +216,29 @@ const Projects = () => {
         </div>
       </div>
       <div className="about">
-            <h2 className="head-about">OTHER PROJECTS</h2>
-            <hr></hr>
-            <div className="other">
-                <div className="other-img">
-                <img src={cos}></img>
-                </div>
-                <div className="other-img">
-                    <Link to={""}><img src={blog}></img></Link>
-                </div>
-                <div className="other-img">
-                    <Link to={""}><img src={sim}></img></Link>
-                </div>
-                <div className="other-img">
-                    <Link to={""}><img src={""}></img></Link>
-                </div>
-
-            </div>
-    </div>
+        <h2 className="head-about">OTHER PROJECTS</h2>
+        <hr></hr>
+        <div className="other">
+          <div className="other-img">
+            <img src={cos}></img>
+          </div>
+          <div className="other-img">
+            <Link to={""}>
+              <img src={blog}></img>
+            </Link>
+          </div>
+          <div className="other-img">
+            <Link to={""}>
+              <img src={sim}></img>
+            </Link>
+          </div>
+          <div className="other-img">
+            <Link to={""}>
+              <img src={""}></img>
+            </Link>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
